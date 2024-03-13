@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SendGrid" Version="9.29.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SK.RestaurantTableBookingApp.Core\SK.RestaurantTableBookingApp.Core.csproj" />
+    <ProjectReference Include="..\SK.RestaurantTableBookingApp.Data\SK.RestaurantTableBookingApp.Data.csproj" />
+  </ItemGroup>
+
+</Project>
